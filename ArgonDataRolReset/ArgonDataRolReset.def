@@ -1,0 +1,3 @@
+LIBRARY      ArgonDataRolReset
+EXPORTS
+    szModuleName   @1 DATA
