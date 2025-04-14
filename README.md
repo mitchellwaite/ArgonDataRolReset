@@ -4,12 +4,16 @@ A simple DashLaunch plugin to reset the 360's ring of light state on bootup. Use
 
 ## Usage
 
-Add ArgonDataRolReset.xex to the `[Plugins]` section of your launch.ini
+Add ArgonDataRolReset.xex to the `[Plugins]` section of your launch.ini, e.g.
 
 ```
 [Plugins]
-plugin1 =  Usb:\ArgonDataRolReset.xex
+plugin1 =  Hdd:\ArgonDataRolReset.xex
 ```
+
+Should prevent weird ROL bugs such as the following from persisting:
+
+![Corrupted ROL](badrol.PNG "Corrupted ROL")
 
 ## Credits
 
